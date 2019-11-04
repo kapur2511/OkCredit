@@ -233,7 +233,6 @@ class NewsListFragment : RecyclerFragment<NewsListPresenter, NewsListRenderer, N
 
     private val stringObjectHashMap = HashMap<String, Any>()
     private var currentDefaultTopic:String = ""
-    private var forceLoad:Boolean?=null
 
     @BindView(R.id.rv_list)
     lateinit var recyclerView: RecyclerView

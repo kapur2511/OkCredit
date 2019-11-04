@@ -12,6 +12,9 @@
 
 package com.okcredit.test.mvp.presenter
 
+import android.view.View
+import com.okcredit.test.mvp.view.renderer.BaseRenderer
+
 abstract class BasePresenter<V> {
 
     var view: V?=null

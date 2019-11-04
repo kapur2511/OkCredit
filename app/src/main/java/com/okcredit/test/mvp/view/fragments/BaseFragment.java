@@ -122,6 +122,7 @@ public abstract class BaseFragment<P extends BasePresenter, V extends BaseRender
 
     @OnClick(R.id.btn_error)
     void onRetry(View view){
+        forceLoad = true;
         switchUI(false, true, false);
         loadData(presenter);
     }
@@ -152,4 +153,6 @@ public abstract class BaseFragment<P extends BasePresenter, V extends BaseRender
     private Unbinder unbinder;
     protected boolean fromBG;
     protected int layoutId;
+    protected boolean forceLoad;
+
 }

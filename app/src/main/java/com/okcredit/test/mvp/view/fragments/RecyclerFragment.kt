@@ -14,8 +14,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import butterknife.BindView
-import com.okcredit.test.R
 import com.okcredit.test.mvp.presenter.BasePresenter
 import com.okcredit.test.mvp.view.adapters.BaseListAdapter
 import com.okcredit.test.mvp.view.renderer.BaseRenderer
