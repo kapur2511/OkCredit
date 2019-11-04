@@ -1,0 +1,35 @@
+<!--
+  ~ Copyright (C) 23-May-2019 Cricbuzz.com
+  ~ All rights reserved.
+  ~
+  ~ http://www.cricbuzz.com
+  ~ @author: kshitiz.kapur
+  -->
+
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ErrorTextViewStyle">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">54sp</item>
+        <item name="android:fontFamily">Roboto-Thin</item>
+    </style>
+
+    <style name="ErrorButtonStyle">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#4A4A4A</item>
+    </style>
+
+    <style name="TextSmall" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+</resources>

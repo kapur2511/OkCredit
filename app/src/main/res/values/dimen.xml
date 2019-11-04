@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 24-May-2019 Cricbuzz.com
+  ~ All rights reserved.
+  ~
+  ~ http://www.cricbuzz.com
+  ~ @author: kshitiz.kapur
+  -->
+
+<!--
+  ~ @author: kshitiz.kapur
+  -->
+
+<resources>
+    <dimen name="loading_icon_size">96dp</dimen>
+    <dimen name="margin_56dp">56dp</dimen>
+    <dimen name="margin_62dp">62dp</dimen>
+    <dimen name="margin_16dp">16dp</dimen>
+    <dimen name="margin_24dp">24dp</dimen>
+    <dimen name="margin_50dp">50dp</dimen>
+    <dimen name="margin_8dp">8dp</dimen>
+    <dimen name="adapter_item_height">80dp</dimen>
+    <dimen name="news_height">200dp</dimen>
+    <dimen name="error_retry_margin">44dp</dimen>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 02-Nov-2019 Cricbuzz.com
+  ~ All rights reserved.
+  ~
+  ~ http://www.cricbuzz.com
+  ~ @author: kshitiz.kapur
+  -->
+
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="appBackground">#F5F6F7</color>
+    <color name="recyclerBackground">#FFFFFF</color>
+    <color name="errorBackground">#E85959</color>
+    <color name="dividerBackground">#FFECF0F1</color>
+    <color name="hyperlink">#2287C0</color>
+</resources>

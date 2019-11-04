@@ -1,0 +1,21 @@
+<!--
+  ~ Copyright (C) 02-Nov-2019 Cricbuzz.com
+  ~ All rights reserved.
+  ~
+  ~ http://www.cricbuzz.com
+  ~ @author: kshitiz.kapur
+  -->
+
+<resources>
+    <string name="app_name">OkCreditTest</string>
+    <string name="error_string">Something went wrong at our end!</string>
+
+    <string-array name="news_types">
+        <item>world</item>
+        <item>science</item>
+        <item>technology</item>
+        <item>business</item>
+        <item>movies</item>
+        <item>travel</item>
+    </string-array>
+</resources>

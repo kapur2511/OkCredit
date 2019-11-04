@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 03-Nov-2019 Cricbuzz.com
+  ~ All rights reserved.
+  ~
+  ~ http://www.cricbuzz.com
+  ~ @author: kshitiz.kapur
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_refresh"
+        android:title="Refresh"
+        android:icon="@drawable/refresh"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_dialog"
+        android:title="Refresh"
+        android:icon="@drawable/menu"
+        app:showAsAction="always" />
+
+</menu>
