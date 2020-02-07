@@ -40,6 +40,9 @@ import com.okcredit.test.utils.Constants.API_KEY_PARAM
 import com.okcredit.test.utils.Constants.NEWS_TYPE_PARAM
 import java.text.SimpleDateFormat
 
+/**
+ * Presenter for NewsListFragment for handling the request and response.
+ * */
 class NewsListPresenter @Inject constructor() : BasePresenter<NewsListRenderer>() {
 
     override fun loadData(stringObjectHashMap: Map<String, Any>) {
@@ -47,7 +50,9 @@ class NewsListPresenter @Inject constructor() : BasePresenter<NewsListRenderer>(
         newsType = stringObjectHashMap[NEWS_TYPE_PARAM].toString().substring(0,stringObjectHashMap[NEWS_TYPE_PARAM].toString().length-5)
         newsAPI.loadNews(stringObjectHashMap[NEWS_TYPE_PARAM].toString(), stringObjectHashMap[API_KEY_PARAM].toString())
                 .subscribeOn(Schedulers.io())
-                .compose(NewsListTransformer())
+                .compose(NewsListTransformer(
+                        
+                ))
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(NewsListObserver())
     }
